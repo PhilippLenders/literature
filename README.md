@@ -17,6 +17,8 @@ cache = C:\\base\\nodejs\\npm-cache
 tmp = C:\\base\\nodejs\\tmp
 ```
 now nodejs is fully installed local/portable to use it from CMD go on reading
+
+for more informations on npm folders see https://docs.npmjs.com/files/folders
  - [x] create file console.bat in C:\base open it with editor and put
 ```
 @echo off
