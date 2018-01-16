@@ -6,9 +6,13 @@
  - [x] extract node-v8.9.4-win-x64.zip to C:\base\nodejs, result should be C:\base\nodejs\node.exe
  - [x] create file npmrc in C:\base\nodejs
  - [x] open CMD, got to C:\base\nodejs an type: "rename npmrc .npmrc"
- - [x] open C:\base\nodejs\.npmrc with editor and put
+ - [x] open C:\base\nodejs\\.npmrc with editor and put
 ```
  prefix = C:\\base\\nodejs
 ```
  - [x] create folder C:\base\nodejs\etc
- 
+ - [x] create file npmrc in C:\base\nodejs\etc open it with editor and put
+```
+cache = C:\\base\\nodejs\\npm-cache
+tmp = C:\\base\\nodejs\\tmp
+```
