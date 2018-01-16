@@ -43,4 +43,5 @@ if "%1" equ "setenv" (
 ```
  - [x] execute console.bat and type "node -v" you will see v8.9.4
  - [x] type "npm --version" you will see 5.6.0
+ 
  ready
