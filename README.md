@@ -16,3 +16,29 @@
 cache = C:\\base\\nodejs\\npm-cache
 tmp = C:\\base\\nodejs\\tmp
 ```
+now nodejs is fully installed local/portable to use it from CMD go on reading
+ - [x] create file console.bat in C:\base open it with editor and put
+```
+@echo off
+goto weiter
+:setenv
+set "Path=C:\base\nodejs;"
+
+goto :EOF
+:weiter
+
+if "%1" equ "setenv" (
+    echo.
+    echo  base console v0.1, logged in %date% %time%
+    echo  environment set, ready to use
+    echo  welcome %username% from %userdomain%
+    call :setenv
+) else (
+    setlocal
+    title console
+    prompt $P#
+    start "" /B %COMSPEC% /K "%~f0" setenv
+)
+
+```
+ - [x] execute console.bat and type "npm --version" you will see 5.6.0
