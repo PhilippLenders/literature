@@ -49,3 +49,10 @@ if "%1" equ "setenv" (
  - [x] type forever -h and see it in action
  
  ready
+
+#### install sublimetext 3 local/portable on windows 10 64 bit, upcoming
+#### install git on windows 10 64 bit, upcoming
+#### npm got to know, 16.01.2018
+-dd, --verbose: --loglevel verbose
+https://docs.npmjs.com/misc/config#shorthands-and-other-cli-niceties
+
