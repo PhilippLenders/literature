@@ -43,5 +43,7 @@ if "%1" equ "setenv" (
 ```
  - [x] execute console.bat and type "node -v" you will see v8.9.4
  - [x] type "npm --version" you will see 5.6.0
+ - [x] now when you install npm packages globaly (for example forever: "npm install -g forever") works right out of the box
+ - [x] type forever -h and see it in action
  
  ready
