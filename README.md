@@ -1,5 +1,5 @@
 # literature
-#### install nodejs local/portable on windows 10 64 bit, 16.01.2018
+#### install nodejs/npm local/portable on windows 10 64 bit, 16.01.2018
 > download "node-v8.9.4-win-x64.zip" from https://nodejs.org/dist/v8.9.4/
 
  - [x] create folder C:\base
@@ -41,4 +41,6 @@ if "%1" equ "setenv" (
 )
 
 ```
- - [x] execute console.bat and type "npm --version" you will see 5.6.0
+ - [x] execute console.bat and type "node -v" you will see v8.9.4
+ - [x] type "npm --version" you will see 5.6.0
+ ready
