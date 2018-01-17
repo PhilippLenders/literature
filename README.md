@@ -70,7 +70,7 @@ RunHiddenConsole.exe php-cgi.exe -c "php\php.ini" -b 127.0.0.1:9000
  @echo off
 set "Path=C:\base\php;"
 echo stopping PHP FastCGI...
-C:\Windows\System32\taskkill.exe /F /IM php-cgi.exe >null
+C:\Windows\System32\taskkill.exe /F /IM php-cgi.exe
  ```
  - [x] now by doubleclick on start.php-cgi.bat, php-cgi runs and listens on 127.0.0.1:9000
  - [x] by doubleclick on stop.php-cgi.bat, php-cgi exits
