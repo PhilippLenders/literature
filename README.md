@@ -338,7 +338,7 @@ set "OPENSSL_CONF=C:\base\openssl\openssl.cnf"
  - [x] run console.bat **as Administrator**
  - [x] run command "openssl rand -out C:\base\openssl\.rnd -base64 4096"
  - [x] run command "openssl genrsa -des3 -out C:\base\openssl\ca\key\server.key 2048"
- - [x] run command "openssl rsa -in C:\base\openssl\ca\key\server.key -out C:\base\openssl\ca\key\server_without_pw.key"
+ - [x] Removing passphrase from key for nginx by running command "openssl rsa -in C:\base\openssl\ca\key\server.key -out C:\base\openssl\ca\key\server_without_pw.key"
  - [x] run command "openssl req -new -key C:\base\openssl\ca\key\server.key -out C:\base\openssl\ca\csr\localhost.csr"
  - [x] for Common Name (eg, YOUR name) []:localhost
  - [x] run command "openssl x509 -req -days 1024 -in C:\base\openssl\ca\csr\localhost.csr -signkey C:\base\openssl\ca\key\server.key -out C:\base\openssl\ca\crt\localhost.crt"
