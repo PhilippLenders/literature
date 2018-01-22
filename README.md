@@ -335,7 +335,7 @@ set "Path=C:\base\openssl;%PATH%;"
 set "OPENSSL_CONF=C:\base\openssl\openssl.cnf"
 ```
  - [x] create folder C:\base\openssl\ca, C:\base\openssl\ca\key, C:\base\openssl\ca\csr, C:\base\openssl\ca\crt, C:\base\openssl\ca\pem
- - [x] run console.bat as Administrator
+ - [x] run console.bat **as Administrator**
  - [x] run command "openssl rand -out C:\base\openssl\.rnd -base64 4096"
  - [x] run command "openssl genrsa -des3 -out C:\base\openssl\ca\key\server.key 2048"
  - [x] run command "openssl rsa -in C:\base\openssl\ca\key\server.key -out C:\base\openssl\ca\key\server_without_pw.key"
@@ -348,7 +348,7 @@ set "OPENSSL_CONF=C:\base\openssl\openssl.cnf"
  ```
 server {
     listen       443 ssl;
-    server_name  testprojekt;
+    server_name  localhost;
 
     ssl_certificate      localhost.crt;
     ssl_certificate_key  server_without_pw.key;
