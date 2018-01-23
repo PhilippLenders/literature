@@ -82,7 +82,7 @@ C:\Windows\System32\taskkill.exe /F /IM php-cgi.exe
 
  - [x] create folder C:\base\openssl
  - [x] extract openssl-1.0.2l-x64_86-win64.zip to C:\base\openssl, result should be C:\base\openssl\openssl.exe
- - [x] create file openssl.cnf in C:\base\openssl open it with editor and put contents from [literature/openssl/openssl.cnf](openssl/openssl.cnf)
+ - [x] create file openssl.cnf in C:\base\openssl open it with editor and put contents from [literature/base/openssl/openssl.cnf](base/openssl/openssl.cnf)
  - [x] add following lines to console.bat in C:\base
 ```
 set "Path=C:\base\openssl;%PATH%;"
