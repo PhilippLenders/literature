@@ -1,5 +1,5 @@
 # literature
-#### install nodejs/npm local/portable on windows 10 64 bit, 16.01.2018
+### \#install nodejs/npm local/portable on windows 10 64 bit, 16.01.2018
 > download "node-v8.9.4-win-x64.zip" from https://nodejs.org/dist/v8.9.4/
 
  - [x] create folder C:\base
@@ -77,7 +77,7 @@ C:\Windows\System32\taskkill.exe /F /IM php-cgi.exe
 
  ready
 
-#### install self signed certificate with openssl on nginx on windows 10 64 bit, 22.01.2018
+### \#install self signed certificate with openssl on nginx on windows 10 64 bit, 22.01.2018
 > download "openssl-1.0.2l-x64_86-win64.zip" from https://indy.fulgan.com/SSL/ found under https://wiki.openssl.org/index.php/Binaries
 
  - [x] create folder C:\base\openssl
@@ -130,8 +130,8 @@ server {
 
  ready
 
-#### install sublimetext 3 local/portable on windows 10 64 bit, upcoming
-#### install git on windows 10 64 bit, upcoming
-#### npm got to know, 16.01.2018
+### \#install sublimetext 3 local/portable on windows 10 64 bit, upcoming
+### \#install git on windows 10 64 bit, upcoming
+### \#npm got to know, 16.01.2018
 -dd, --verbose: --loglevel verbose
 https://docs.npmjs.com/misc/config#shorthands-and-other-cli-niceties
